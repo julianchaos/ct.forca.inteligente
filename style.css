@@ -52,7 +52,7 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 /* =Reset
 -------------------------------------------------------------- */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -111,7 +111,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 nav,
 section {
 	display: block;
@@ -537,13 +536,10 @@ a:hover {
 
 /* Header */
 .site-header {
-	padding: 24px 0;
-	padding: 1.714285714rem 0;
+	padding: 14px 0;
+	/*padding: 1.714285714rem 0*/;
 }
-.site-header h1,
-.site-header h2 {
-	text-align: center;
-}
+
 .site-header h1 a,
 .site-header h2 a {
 	color: #515151;
@@ -575,9 +571,10 @@ a:hover {
 
 /* Navigation Menu */
 .main-navigation {
-	margin-top: 24px;
-	margin-top: 1.714285714rem;
+	margin-top: 14px;
+	/*margin-top: 1.714285714rem;*/
 	text-align: center;
+	background-color: #444;
 }
 .main-navigation li {
 	margin-top: 24px;
@@ -587,10 +584,10 @@ a:hover {
 	line-height: 1.42857143;
 }
 .main-navigation a {
-	color: #5e5e5e;
+	color: #fff;
 }
 .main-navigation a:hover {
-	color: #21759b;
+	color: #fff;
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
@@ -1462,15 +1459,14 @@ img#wpstats {
 		float: right;
 		width: 26.041666667%;
 	}
-	.site-header h1,
-	.site-header h2 {
-		text-align: left;
-	}
 	.site-header h1 {
 		font-size: 26px;
 		font-size: 1.857142857rem;
-		line-height: 1.846153846;
 		margin-bottom: 0;
+		height: 170px;
+	}
+	.site-header h2 {
+		display: none;
 	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
@@ -1491,17 +1487,18 @@ img#wpstats {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #6a6a6a;
-		line-height: 3.692307692;
+		color: #fff;
+		line-height: 3;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin-left: 12px;
+		margin-right: 12px;
 	}
 	.main-navigation li a:hover {
-		color: #000;
+		color: #ddd;
 	}
 	.main-navigation li {
-		margin: 0 40px 0 0;
-		margin: 0 2.857142857rem 0 0;
+		margin: 0;
 		position: relative;
 	}
 	.main-navigation li ul {
@@ -1521,12 +1518,12 @@ img#wpstats {
 		display: block;
 	}
 	.main-navigation li ul li a {
-		background: #efefef;
-		border-bottom: 1px solid #ededed;
+		background: #666;
+		/*border-bottom: 1px solid #ededed;*/
 		display: block;
 		font-size: 11px;
 		font-size: 0.785714286rem;
-		line-height: 2.181818182;
+		line-height: 1.5;
 		padding: 8px 10px;
 		padding: 0.571428571rem 0.714285714rem;
 		width: 180px;
@@ -1534,14 +1531,14 @@ img#wpstats {
 		white-space: normal;
 	}
 	.main-navigation li ul li a:hover {
-		background: #e3e3e3;
-		color: #444;
+		background: #666;
+		color: #ddd;
 	}
 	.main-navigation .current-menu-item > a,
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		color: #636363;
+		color: #fff;
 		font-weight: bold;
 	}
 	.menu-toggle {
@@ -1600,17 +1597,13 @@ img#wpstats {
 
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
-	body {
-		background-color: #e6e6e6;
-	}
 	body .site {
 		padding: 0 40px;
 		padding: 0 2.857142857rem;
-		margin-top: 48px;
-		margin-top: 3.428571429rem;
+		/*margin-top: 48px;
+		margin-top: 3.428571429rem; */
 		margin-bottom: 48px;
 		margin-bottom: 3.428571429rem;
-		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	}
 	body.custom-background-empty {
 		background-color: #fff;
