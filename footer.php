@@ -12,8 +12,8 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
-			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?></a>
+			Centro de Treinamento Força Inteligente<br />
+			R. 24 de Maio, 599. Riachuelo.
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

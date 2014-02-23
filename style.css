@@ -363,6 +363,9 @@ img.wp-post-image {
 	border-radius: 3px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
+.meteor-slides .mslide img {
+	border-radius: 0 !important;
+}
 .wp-caption {
 	max-width: 100%; /* Keep wide captions from overflowing their container. */
 	padding: 4px;
@@ -526,8 +529,8 @@ a:hover {
 	background-color: #fff;
 }
 .site-content {
-	margin: 24px 0 0;
-	margin: 1.714285714rem 0 0;
+	margin: 0;
+	/*margin: 1.714285714rem 0 0;*/
 }
 .widget-area {
 	margin: 24px 0 0;
@@ -536,7 +539,7 @@ a:hover {
 
 /* Header */
 .site-header {
-	padding: 14px 0;
+	padding: 7px 0 0;
 	/*padding: 1.714285714rem 0*/;
 }
 
@@ -564,6 +567,29 @@ a:hover {
 	line-height: 1.846153846;
 	color: #757575;
 }
+/*.site-header h1 img {
+	float: left;
+}
+.site-header .header-title {
+	color: #016701;
+	text-shadow: 0 0 6px rgba(1,103,1, 0.7);
+	font-size: 40px;
+	letter-spacing: -10px;
+	float: left;
+	padding-left: 10px
+}
+.site-header .header-title span {
+	display: block;
+	font-size: 97px;
+	position: relative;
+	margin-top: -10px;
+}
+.site-header .header-title span + span {
+	margin-top: -16px;
+	font-size: 60px;
+	letter-spacing: -10px;
+}*/
+
 .header-image {
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
@@ -571,10 +597,10 @@ a:hover {
 
 /* Navigation Menu */
 .main-navigation {
-	margin-top: 14px;
+	margin-top: 7px;
 	/*margin-top: 1.714285714rem;*/
 	text-align: center;
-	background-color: #444;
+	background-color: #016701;
 }
 .main-navigation li {
 	margin-top: 24px;
@@ -1447,8 +1473,7 @@ img#wpstats {
 		overflow: hidden;
 	}
 	.site-content {
-		float: left;
-		width: 65.104166667%;
+
 	}
 	body.template-front-page .site-content,
 	body.attachment .site-content,
@@ -1495,7 +1520,7 @@ img#wpstats {
 		margin-right: 12px;
 	}
 	.main-navigation li a:hover {
-		color: #ddd;
+		text-shadow: 0 0 14px #FFF;
 	}
 	.main-navigation li {
 		margin: 0;
@@ -1507,7 +1532,7 @@ img#wpstats {
 		padding: 0;
 		position: absolute;
 		top: 100%;
-		z-index: 1;
+		z-index: 2;
 	}
 	.main-navigation li ul ul {
 		top: 0;
@@ -1518,7 +1543,7 @@ img#wpstats {
 		display: block;
 	}
 	.main-navigation li ul li a {
-		background: #666;
+		background: #00a600;
 		/*border-bottom: 1px solid #ededed;*/
 		display: block;
 		font-size: 11px;
@@ -1531,8 +1556,7 @@ img#wpstats {
 		white-space: normal;
 	}
 	.main-navigation li ul li a:hover {
-		background: #666;
-		color: #ddd;
+		text-shadow: 0 0 6px #FFFFF;
 	}
 	.main-navigation .current-menu-item > a,
 	.main-navigation .current-menu-ancestor > a,
