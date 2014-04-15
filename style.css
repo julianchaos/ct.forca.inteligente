@@ -694,6 +694,7 @@ footer[role="contentinfo"] {
 	margin-right: auto;
 	padding: 24px 0;
 	padding: 1.714285714rem 0;
+	text-align: center;
 }
 footer[role="contentinfo"] a {
 	color: #686868;

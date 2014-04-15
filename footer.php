@@ -13,7 +13,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			Centro de Treinamento Força Inteligente<br />
-			R. 24 de Maio, 599. Riachuelo.
+			<a href="<?php echo get_page_link(17) ?>">R. 24 de Maio, 599. Riachuelo.</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
