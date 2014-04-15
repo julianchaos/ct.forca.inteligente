@@ -29,6 +29,27 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 
 	</div><!-- #content -->
+	<hr>
+	<div id="subcontent" role="complementary">
+		<div class="subcontent-item">
+			<a href="http://www.google.com/">
+				<h2>Título</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/subcontent.png" alt="alt" />
+			</a>
+		</div>
+		<div class="subcontent-item">
+			<a href="http://www.google.com/">
+				<h2>Título</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/subcontent.png" alt="alt" />
+			</a>
+		</div>
+		<div class="subcontent-item">
+			<a href="http://www.google.com/">
+				<h2>Título</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/subcontent.png" alt="alt" />
+			</a>
+		</div>
+	</div>
 </div><!-- #primary -->
 
 <?php get_footer();

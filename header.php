@@ -36,8 +36,9 @@
 			<header id="masthead" class="site-header" role="banner">			
 				<h1 class="site-title">
 					<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-						<img src="<?php bloginfo('template_directory'); ?>/img/ct.forca.inteligente.170px.png" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" />
-<!--						<span class='header-title'>
+						<img class="header-image" src="<?php bloginfo('template_directory'); ?>/img/ct.forca.inteligente.170px.png" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" />
+						<!--
+						<span class='header-title'>
 							<span>FORÇA</span>
 							<span>INTELIGENTE</span>
 						</span>-->
