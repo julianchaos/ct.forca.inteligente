@@ -32,21 +32,21 @@ get_header(); ?>
 	<hr>
 	<div id="subcontent" role="complementary">
 		<div class="subcontent-item">
-			<a href="http://www.google.com/">
-				<h2>Título</h2>
-				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/subcontent.png" alt="alt" />
+			<a href="/horarios">
+				<h2>Jiu-Jitsu Infantil</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/home-pics/jj-infantil.jpg" alt="alt" />
 			</a>
 		</div>
 		<div class="subcontent-item">
-			<a href="http://www.google.com/">
-				<h2>Título</h2>
-				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/subcontent.png" alt="alt" />
+			<a href="/massoterapia">
+				<h2>Massoterapia</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/home-pics/massoterapia.jpg" alt="alt" />
 			</a>
 		</div>
 		<div class="subcontent-item">
-			<a href="http://www.google.com/">
-				<h2>Título</h2>
-				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/subcontent.png" alt="alt" />
+			<a href="/horarios">
+				<h2>Muay Thai</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/home-pics/muay-thai.jpg" alt="alt" />
 			</a>
 		</div>
 	</div>
