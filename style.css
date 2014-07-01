@@ -702,6 +702,10 @@ footer[role="contentinfo"] a {
 footer[role="contentinfo"] a:hover {
 	color: #21759b;
 }
+footer[role="contentinfo"] nav a {
+	text-decoration: none;
+	margin: 0 7px;
+}
 
 
 /* =Main content and comment content

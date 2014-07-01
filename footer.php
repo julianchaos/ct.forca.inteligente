@@ -11,6 +11,17 @@
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
+		<nav>
+			<a href="http://gfteam.com.br/" target="_BLANK">
+				<img src="<?php bloginfo('template_directory'); ?>/img/icon/gfteam.png" alt="" />
+			</a>
+			<a href="/centro-de-treinamento/">
+				<img src="<?php bloginfo('template_directory'); ?>/img/icon/ct.forca.inteligente.png" alt="" />
+			</a>
+			<a href="/parioca/">
+				<img src="<?php bloginfo('template_directory'); ?>/img/icon/parioca.png" alt="" />
+			</a>
+		</nav>
 		<div class="site-info">
 			Centro de Treinamento Força Inteligente<br />
 			<a href="<?php echo get_page_link(17) ?>">R. 24 de Maio, 599. Riachuelo.</a>
