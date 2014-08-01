@@ -38,9 +38,9 @@ get_header(); ?>
 			</a>
 		</div>
 		<div class="subcontent-item">
-			<a href="/massoterapia">
-				<h2>Massoterapia</h2>
-				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/home-pics/massoterapia.jpg" alt="alt" />
+			<a href="/horarios">
+				<h2>Judo</h2>
+				<img class="image-responsive" src="<?php bloginfo('template_directory'); ?>/img/home-pics/judo.jpg" alt="alt" />
 			</a>
 		</div>
 		<div class="subcontent-item">

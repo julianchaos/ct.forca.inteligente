@@ -24,7 +24,7 @@
 		</nav>
 		<div class="site-info">
 			Centro de Treinamento Força Inteligente<br />
-			<a href="<?php echo get_page_link(17) ?>">R. 24 de Maio, 599. Riachuelo.</a>
+			<a href="/como-chegar/">R. 24 de Maio, 599. Riachuelo.</a> Tel.: (021) 3591-1995
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
